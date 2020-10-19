@@ -39,5 +39,8 @@ class BasePage():
     def wait_for_clickable(self,element):
         return WebDriverWait(self.driver,10).until(ec.element_to_be_clickable(element))
 
+    def wait_for_presence_(self, element):
+        return WebDriverWait(self.driver, 10).until(ec.presence_of_element_located(element))
+
 
 
