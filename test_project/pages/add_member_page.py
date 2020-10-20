@@ -1,6 +1,6 @@
 # !/usr/bin/env Python3
 # -*- coding: utf-8 -*-
-# @FILE     : add_member_page.py
+# @FILE     : addmember_page.py
 # @Author   : Pluto.
 # @Time     : 2020/10/18 13:07
 
